@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D7993E32BE8CCF800FA6773 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7993E22BE8CCF800FA6773 /* AppDelegate.swift */; };
+		0D7993E52BE8CCF800FA6773 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7993E42BE8CCF800FA6773 /* SceneDelegate.swift */; };
+		0D7993E72BE8CCF800FA6773 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7993E62BE8CCF800FA6773 /* ViewController.swift */; };
+		0D7993EA2BE8CCF800FA6773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D7993E82BE8CCF800FA6773 /* Main.storyboard */; };
+		0D7993EC2BE8CCF900FA6773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D7993EB2BE8CCF900FA6773 /* Assets.xcassets */; };
+		0D7993EF2BE8CCF900FA6773 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D7993ED2BE8CCF900FA6773 /* LaunchScreen.storyboard */; };
+		0D7993FA2BE8CCFA00FA6773 /* PhonePeWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7993F92BE8CCFA00FA6773 /* PhonePeWalletTests.swift */; };
+		0D7994042BE8CCFA00FA6773 /* PhonePeWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7994032BE8CCFA00FA6773 /* PhonePeWalletUITests.swift */; };
+		0D7994062BE8CCFA00FA6773 /* PhonePeWalletUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7994052BE8CCFA00FA6773 /* PhonePeWalletUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D7993F62BE8CCFA00FA6773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D7993D72BE8CCF800FA6773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D7993DE2BE8CCF800FA6773;
+			remoteInfo = PhonePeWallet;
+		};
+		0D7994002BE8CCFA00FA6773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D7993D72BE8CCF800FA6773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D7993DE2BE8CCF800FA6773;
+			remoteInfo = PhonePeWallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D7993DF2BE8CCF800FA6773 /* PhonePeWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhonePeWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D7993E22BE8CCF800FA6773 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D7993E42BE8CCF800FA6773 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0D7993E62BE8CCF800FA6773 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D7993E92BE8CCF800FA6773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D7993EB2BE8CCF900FA6773 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D7993EE2BE8CCF900FA6773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D7993F02BE8CCF900FA6773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D7993F52BE8CCFA00FA6773 /* PhonePeWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhonePeWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D7993F92BE8CCFA00FA6773 /* PhonePeWalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonePeWalletTests.swift; sourceTree = "<group>"; };
+		0D7993FF2BE8CCFA00FA6773 /* PhonePeWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhonePeWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D7994032BE8CCFA00FA6773 /* PhonePeWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonePeWalletUITests.swift; sourceTree = "<group>"; };
+		0D7994052BE8CCFA00FA6773 /* PhonePeWalletUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonePeWalletUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D7993DC2BE8CCF800FA6773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D7993F22BE8CCFA00FA6773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D7993FC2BE8CCFA00FA6773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D7993D62BE8CCF800FA6773 = {
+			isa = PBXGroup;
+			children = (
+				0D7993E12BE8CCF800FA6773 /* PhonePeWallet */,
+				0D7993F82BE8CCFA00FA6773 /* PhonePeWalletTests */,
+				0D7994022BE8CCFA00FA6773 /* PhonePeWalletUITests */,
+				0D7993E02BE8CCF800FA6773 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D7993E02BE8CCF800FA6773 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D7993DF2BE8CCF800FA6773 /* PhonePeWallet.app */,
+				0D7993F52BE8CCFA00FA6773 /* PhonePeWalletTests.xctest */,
+				0D7993FF2BE8CCFA00FA6773 /* PhonePeWalletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D7993E12BE8CCF800FA6773 /* PhonePeWallet */ = {
+			isa = PBXGroup;
+			children = (
+				0D7993E22BE8CCF800FA6773 /* AppDelegate.swift */,
+				0D7993E42BE8CCF800FA6773 /* SceneDelegate.swift */,
+				0D7993E62BE8CCF800FA6773 /* ViewController.swift */,
+				0D7993E82BE8CCF800FA6773 /* Main.storyboard */,
+				0D7993EB2BE8CCF900FA6773 /* Assets.xcassets */,
+				0D7993ED2BE8CCF900FA6773 /* LaunchScreen.storyboard */,
+				0D7993F02BE8CCF900FA6773 /* Info.plist */,
+			);
+			path = PhonePeWallet;
+			sourceTree = "<group>";
+		};
+		0D7993F82BE8CCFA00FA6773 /* PhonePeWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D7993F92BE8CCFA00FA6773 /* PhonePeWalletTests.swift */,
+			);
+			path = PhonePeWalletTests;
+			sourceTree = "<group>";
+		};
+		0D7994022BE8CCFA00FA6773 /* PhonePeWalletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D7994032BE8CCFA00FA6773 /* PhonePeWalletUITests.swift */,
+				0D7994052BE8CCFA00FA6773 /* PhonePeWalletUITestsLaunchTests.swift */,
+			);
+			path = PhonePeWalletUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D7993DE2BE8CCF800FA6773 /* PhonePeWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D7994092BE8CCFA00FA6773 /* Build configuration list for PBXNativeTarget "PhonePeWallet" */;
+			buildPhases = (
+				0D7993DB2BE8CCF800FA6773 /* Sources */,
+				0D7993DC2BE8CCF800FA6773 /* Frameworks */,
+				0D7993DD2BE8CCF800FA6773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhonePeWallet;
+			productName = PhonePeWallet;
+			productReference = 0D7993DF2BE8CCF800FA6773 /* PhonePeWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D7993F42BE8CCFA00FA6773 /* PhonePeWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D79940C2BE8CCFA00FA6773 /* Build configuration list for PBXNativeTarget "PhonePeWalletTests" */;
+			buildPhases = (
+				0D7993F12BE8CCFA00FA6773 /* Sources */,
+				0D7993F22BE8CCFA00FA6773 /* Frameworks */,
+				0D7993F32BE8CCFA00FA6773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D7993F72BE8CCFA00FA6773 /* PBXTargetDependency */,
+			);
+			name = PhonePeWalletTests;
+			productName = PhonePeWalletTests;
+			productReference = 0D7993F52BE8CCFA00FA6773 /* PhonePeWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D7993FE2BE8CCFA00FA6773 /* PhonePeWalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D79940F2BE8CCFA00FA6773 /* Build configuration list for PBXNativeTarget "PhonePeWalletUITests" */;
+			buildPhases = (
+				0D7993FB2BE8CCFA00FA6773 /* Sources */,
+				0D7993FC2BE8CCFA00FA6773 /* Frameworks */,
+				0D7993FD2BE8CCFA00FA6773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D7994012BE8CCFA00FA6773 /* PBXTargetDependency */,
+			);
+			name = PhonePeWalletUITests;
+			productName = PhonePeWalletUITests;
+			productReference = 0D7993FF2BE8CCFA00FA6773 /* PhonePeWalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D7993D72BE8CCF800FA6773 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0D7993DE2BE8CCF800FA6773 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					0D7993F42BE8CCFA00FA6773 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 0D7993DE2BE8CCF800FA6773;
+					};
+					0D7993FE2BE8CCFA00FA6773 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 0D7993DE2BE8CCF800FA6773;
+					};
+				};
+			};
+			buildConfigurationList = 0D7993DA2BE8CCF800FA6773 /* Build configuration list for PBXProject "PhonePeWallet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D7993D62BE8CCF800FA6773;
+			productRefGroup = 0D7993E02BE8CCF800FA6773 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D7993DE2BE8CCF800FA6773 /* PhonePeWallet */,
+				0D7993F42BE8CCFA00FA6773 /* PhonePeWalletTests */,
+				0D7993FE2BE8CCFA00FA6773 /* PhonePeWalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D7993DD2BE8CCF800FA6773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7993EF2BE8CCF900FA6773 /* LaunchScreen.storyboard in Resources */,
+				0D7993EC2BE8CCF900FA6773 /* Assets.xcassets in Resources */,
+				0D7993EA2BE8CCF800FA6773 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D7993F32BE8CCFA00FA6773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D7993FD2BE8CCFA00FA6773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D7993DB2BE8CCF800FA6773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7993E72BE8CCF800FA6773 /* ViewController.swift in Sources */,
+				0D7993E32BE8CCF800FA6773 /* AppDelegate.swift in Sources */,
+				0D7993E52BE8CCF800FA6773 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D7993F12BE8CCFA00FA6773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7993FA2BE8CCFA00FA6773 /* PhonePeWalletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D7993FB2BE8CCFA00FA6773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7994042BE8CCFA00FA6773 /* PhonePeWalletUITests.swift in Sources */,
+				0D7994062BE8CCFA00FA6773 /* PhonePeWalletUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D7993F72BE8CCFA00FA6773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D7993DE2BE8CCF800FA6773 /* PhonePeWallet */;
+			targetProxy = 0D7993F62BE8CCFA00FA6773 /* PBXContainerItemProxy */;
+		};
+		0D7994012BE8CCFA00FA6773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D7993DE2BE8CCF800FA6773 /* PhonePeWallet */;
+			targetProxy = 0D7994002BE8CCFA00FA6773 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D7993E82BE8CCF800FA6773 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D7993E92BE8CCF800FA6773 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D7993ED2BE8CCF900FA6773 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D7993EE2BE8CCF900FA6773 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D7994072BE8CCFA00FA6773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D7994082BE8CCFA00FA6773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D79940A2BE8CCFA00FA6773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 569M2LHUB2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhonePeWallet/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AanchalPatial.PhonePeWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D79940B2BE8CCFA00FA6773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 569M2LHUB2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhonePeWallet/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AanchalPatial.PhonePeWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0D79940D2BE8CCFA00FA6773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 569M2LHUB2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AanchalPatial.PhonePeWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhonePeWallet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhonePeWallet";
+			};
+			name = Debug;
+		};
+		0D79940E2BE8CCFA00FA6773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 569M2LHUB2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AanchalPatial.PhonePeWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhonePeWallet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhonePeWallet";
+			};
+			name = Release;
+		};
+		0D7994102BE8CCFA00FA6773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 569M2LHUB2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AanchalPatial.PhonePeWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhonePeWallet;
+			};
+			name = Debug;
+		};
+		0D7994112BE8CCFA00FA6773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 569M2LHUB2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AanchalPatial.PhonePeWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhonePeWallet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D7993DA2BE8CCF800FA6773 /* Build configuration list for PBXProject "PhonePeWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D7994072BE8CCFA00FA6773 /* Debug */,
+				0D7994082BE8CCFA00FA6773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D7994092BE8CCFA00FA6773 /* Build configuration list for PBXNativeTarget "PhonePeWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D79940A2BE8CCFA00FA6773 /* Debug */,
+				0D79940B2BE8CCFA00FA6773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D79940C2BE8CCFA00FA6773 /* Build configuration list for PBXNativeTarget "PhonePeWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D79940D2BE8CCFA00FA6773 /* Debug */,
+				0D79940E2BE8CCFA00FA6773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D79940F2BE8CCFA00FA6773 /* Build configuration list for PBXNativeTarget "PhonePeWalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D7994102BE8CCFA00FA6773 /* Debug */,
+				0D7994112BE8CCFA00FA6773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D7993D72BE8CCF800FA6773 /* Project object */;
+}
