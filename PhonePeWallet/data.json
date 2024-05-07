@@ -1,0 +1,14 @@
+{
+    "txnId" : "qwertyuiosdfghjkl",
+    "txnTime" :  1696499025,
+    "status" : "SUCCESS",
+    "amount" : 69600,
+    "to" : {
+        "name" : "Happy land hyper market",
+        "vpa" : "paytm-70350834@paytm"
+    },
+    "from" : {
+        "accountNo" : "XXXXXXXX3824",
+        "utr" : "327518884421"
+    }
+}
